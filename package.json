@@ -1,23 +1,16 @@
 {
-  "name": "mb-pro",
-  "version": "1.0.0",
-  "license": "MIT",
-
-  "scripts": {
-    "build": "echo done"
-  },
-
-  "dependencies": {
-    "@upstash/redis": "latest",
-    "axios": "^1.6.0",
-    "crypto-js": "^4.2.0",
-    "jimp": "^0.22.10",
-    "moment": "^2.29.4",
-    "qs": "^6.11.2",
-    "sharp": "^0.33.2",
-    "undici": "^6.0.0",
-    "uuid": "^9.0.0",
-    "onnxruntime-node": "^1.17.1",
-    "node-tesseract-ocr": "^2.2.1"
-  }
+ "name":"mb-pro",
+ "version":"1.0.0",
+ "scripts":{
+   "build":"echo done"
+ },
+ "dependencies":{
+   "@upstash/redis":"latest",
+   "axios":"^1.6.0",
+   "crypto-js":"^4.2.0",
+   "moment":"^2.29.4",
+   "qs":"^6.11.2",
+   "undici":"^6.0.0",
+   "uuid":"^9.0.0"
+ }
 }
